@@ -14,7 +14,6 @@ import static com.mohamad394.list_todo.Lists.books;
 
 public class AddList extends AppCompatActivity {
     String listName;
-
     EditText name1;
     static ListClass mListClass=new ListClass();
     @Override

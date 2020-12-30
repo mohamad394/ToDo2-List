@@ -173,11 +173,7 @@ public class Lists extends AppCompatActivity {
                 .show();
     }
 
-    public void OnClickCreateNewList(View view) {
-        Intent intent=new Intent(Lists.this,AddList.class);
-        startActivity(intent);
-        finish();
-    }
+
 
     public void logout(View view) {
         AlertDialog alertDialog = new AlertDialog.Builder(Lists.this)
@@ -206,5 +202,11 @@ public class Lists extends AppCompatActivity {
                     }
                 })
                 .show();
+    }
+
+    public void OnClickCreateNewList(View view) {
+        Intent nn=new Intent(Lists.this,AddList.class);
+        startActivity(nn);
+        finish();
     }
 }

@@ -11,6 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ViewTask"></activity>
         <activity android:name=".Daily" />
+        <activity android:name=".AddList" />
+        <activity android:name=".AddTask" />
         <activity android:name=".Lists" />
         <activity android:name=".Sign_In" />
         <activity android:name=".Sign_Up" />
