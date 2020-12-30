@@ -22,7 +22,7 @@ public class Lists extends AppCompatActivity {
 
 
 
-    
+
     public void OnClickCreateNewList(View view) {
 
     }
